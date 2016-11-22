@@ -1,0 +1,122 @@
+gen-idea
+reload
+plugins
+dependency
+akka
+reload
+run
+version
+update
+reload
+update
+reload
+update
+compile
+run
+run src/main/scala/Main.scala
+compile
+reload
+run
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+runMain MainClient
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+sbt
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+run-main MainServer
+run-main MainClient
+assembly
+reload
+update
+assembly
+reload
+update
+assembly
+update
+reload
+update
+reload
+update
+reload
+run
+version
+upgrade
+help
+sbt version
+update
+one-jar
+plugins
+update
+reload
+update
+one-jat
+one-jar
+reload
+reload plugins
+plugins
+assembly
+reload
+assembly
+runMain MainServer
+assembly
+run
+update
+run
+assembly
+show discoveredMainClasses
+reload
+assembly
+reload
+run
+assembly
+reload
+compile
+assembly
+reload
+update
+assembly
+reload
+compile
+assembly
+reload
+compile
+assembly
+reload
+assembly
+runMain MainServer
+relo
+update
+compile
+assembly
+update
+run
+assembly
+runMain MainServer

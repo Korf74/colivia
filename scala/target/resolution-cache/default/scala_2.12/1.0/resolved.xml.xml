@@ -4,7 +4,7 @@
 		module="scala_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161101010049"
+		publication="20161102211843"
 	>
 		<description>
 		scala
@@ -34,5 +34,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.8.1" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.4.12" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.4.12" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
