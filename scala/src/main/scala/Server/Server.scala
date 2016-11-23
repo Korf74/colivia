@@ -12,6 +12,11 @@ import akka.io.{IO, Tcp}
 import akka.util.ByteString
 import Messages.{SpreadData, Stop}
 
+object Server {
+  def props(adr: String) =
+    Props(classOf[Server], adr)
+}
+
 class Server(adr: String) extends Actor {
 
   import Tcp._
@@ -37,7 +42,7 @@ class Server(adr: String) extends Actor {
     case c @ Connected(remote, local) =>
       println("Distant client connected : "+remote.toString)
       val connection = sender()
-      val handler = context.actorOf(Props(new SimplisticHandler(connection, remote)))
+      val handler = context.actorOf(SimplisticHandler.props(connection, remote))
       clientHandlers = handler :: clientHandlers
       connection ! Register(handler)
 

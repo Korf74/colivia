@@ -48,12 +48,13 @@ class Client(remote: InetSocketAddress, listener: ActorRef) extends Actor {
           listener ! data
 
         case Stop =>
-          connection ! Close
+          connection ! ConfirmedClose
           context stop self
 
         case _: ConnectionClosed =>
           listener ! "connection closed"
           context stop self
+
       }
   }
 }

@@ -7,9 +7,14 @@ package Server
 import java.net.InetSocketAddress
 
 import Messages.{Stop, HandlerStop, SpreadData, Send}
-import akka.actor.{Actor, ActorRef}
+import akka.actor.{Props, Actor, ActorRef}
 import akka.io.Tcp
 import akka.util.ByteString
+
+object SimplisticHandler {
+  def props(connection: ActorRef, adr: InetSocketAddress) =
+    Props(classOf[SimplisticHandler], connection, adr)
+}
 
 class SimplisticHandler(connection: ActorRef, adr: InetSocketAddress) extends Actor {
   import Tcp._
@@ -22,11 +27,13 @@ class SimplisticHandler(connection: ActorRef, adr: InetSocketAddress) extends Ac
 
     case PeerClosed =>
       context.parent ! HandlerStop
-      context stop self
-
-    case Stop =>
       connection ! Close
       context stop self
 
+    case Stop =>
+      connection ! ConfirmedClose
+      context become {
+        case ConfirmedClose => context stop self
+      }
   }
 }

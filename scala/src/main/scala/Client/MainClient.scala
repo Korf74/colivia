@@ -25,7 +25,7 @@ object MainClient {
     val inputHandler = new ClientInputHandler(client)
 
     // handle input of client
-    while(!inputHandler.handle(StdIn.readLine))
+    while(!inputHandler.handle(StdIn.readLine)) {}
 
     listener ! PoisonPill
     client ! Stop

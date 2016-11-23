@@ -196,3 +196,24 @@ runMain Server.MainServer localhost
 runMain Client.MainClient localhost
 compile
 assembly
+runMain Server.MainServer localhost
+runMain Server.MainServer 0.0.0.0
+runMain Client.MainClient 82.229.207.117:5150
+runMain Client.MainClient 82.229.207.117
+runMain Server.MainServer 80.12.63.94
+runMain Server.MainServer 0.0.0.0
+runMain Client.MainClient 80.12.63.94
+runMain Server.MainServer 0.0.0.0
+runMain Client.MainClient 82.229.207.117
+runMain Server.MainServer 0.0.0.0
+reload
+runMain Server.MainServer 0.0.0.0
+runMain Client.MainClient 82.229.207.117
+runMain Server.MainServer 0.0.0.0
+runMain Client.MainClient 82.229.207.117
+runMain Client.MainClient localhost
+reload
+runMain Client.MainClient localhost
+reload
+runMain Client.MainClient localhost
+assembly

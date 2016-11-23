@@ -1,10 +1,30 @@
 [0m[[0minfo[0m] [0mRunning Client.MainClient localhost[0m
 [0m[[0minfo[0m] [0mconnected[0m
-[0m[[0minfo[0m] [0mBad command[0m
-[0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0m##########################[0m
-[0m[[0minfo[0m] [0mCommands help : [0m
-[0m[[0minfo[0m] [0m/help for this help.[0m
-[0m[[0minfo[0m] [0m/dc to disconnect[0m
-[0m[[0minfo[0m] [0m#######[0m[[0minfo[0m] [0mClient disconnected[0m
-[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: ss[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: ssssssssssssssssssssssssssssssssssssssssssssss[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : ssssssssssssssssssssssssssssssssssssssssssssss[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0mClient disconnected[0m
+[0m[[0minfo[0m] [0mClient disconnected[0m

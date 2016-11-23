@@ -17,7 +17,7 @@ object MainServer {
 
     val system = ActorSystem("Colivia_Server")
 
-    val server = system.actorOf(Props(new Server(adr)), "Server")
+    val server = system.actorOf(Server.props(adr), "Server")
 
     while(!StdIn.readLine().equals("stop"))
 
