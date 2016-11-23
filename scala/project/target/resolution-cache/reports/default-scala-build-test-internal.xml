@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161121231216"/>
+		date="20161123000750"/>
 	<dependencies>
 		<module organisation="com.eed3si9n" name="sbt-assembly">
 			<revision name="0.14.3" status="release" pubdate="20160407091705" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
@@ -37,7 +37,7 @@
 		</module>
 		<module organisation="org.apache.maven" name="maven-plugin-api">
 			<revision name="3.3.3" status="release" pubdate="20150422135705" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
-				<metadata-artifact status="successful" details="" size="3027" time="436" location="/home/remi/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.3.3.xml" searched="true" original-local-location="/home/remi/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom"/>
+				<metadata-artifact status="successful" details="" size="3027" time="186" location="/home/remi/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.3.3.xml" searched="true" original-local-location="/home/remi/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom"/>
 				<caller organisation="org.pantsbuild" name="jarjar" conf="default, compile, runtime, master" rev="3.3.3" rev-constraint-default="3.3.3" rev-constraint-dynamic="3.3.3" callerrev="1.6.0"/>
 				<artifacts>
 					<artifact name="maven-plugin-api" type="jar" ext="jar" status="no" details="" size="46099" time="0" location="/home/remi/.ivy2/cache/org.apache.maven/maven-plugin-api/jars/maven-plugin-api-3.3.3.jar">
@@ -115,7 +115,7 @@
 		</module>
 		<module organisation="org.apache.maven" name="maven-artifact">
 			<revision name="3.3.3" status="release" pubdate="20150422135657" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
-				<metadata-artifact status="successful" details="" size="2348" time="570" location="/home/remi/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.3.3.xml" searched="true" original-local-location="/home/remi/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom"/>
+				<metadata-artifact status="successful" details="" size="2348" time="180" location="/home/remi/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.3.3.xml" searched="true" original-local-location="/home/remi/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom"/>
 				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="3.3.3" rev-constraint-default="3.3.3" rev-constraint-dynamic="3.3.3" callerrev="3.3.3"/>
 				<artifacts>
 					<artifact name="maven-artifact" type="jar" ext="jar" status="no" details="" size="55090" time="0" location="/home/remi/.ivy2/cache/org.apache.maven/maven-artifact/jars/maven-artifact-3.3.3.jar">
@@ -126,7 +126,7 @@
 		</module>
 		<module organisation="org.apache.maven" name="maven-model">
 			<revision name="3.3.3" status="release" pubdate="20150422135648" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
-				<metadata-artifact status="successful" details="" size="4247" time="402" location="/home/remi/.ivy2/cache/org.apache.maven/maven-model/ivy-3.3.3.xml" searched="true" original-local-location="/home/remi/.ivy2/cache/org.apache.maven/maven-model/ivy-3.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom"/>
+				<metadata-artifact status="successful" details="" size="4247" time="186" location="/home/remi/.ivy2/cache/org.apache.maven/maven-model/ivy-3.3.3.xml" searched="true" original-local-location="/home/remi/.ivy2/cache/org.apache.maven/maven-model/ivy-3.3.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom"/>
 				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="3.3.3" rev-constraint-default="3.3.3" rev-constraint-dynamic="3.3.3" callerrev="3.3.3"/>
 				<artifacts>
 					<artifact name="maven-model" type="jar" ext="jar" status="no" details="" size="160817" time="0" location="/home/remi/.ivy2/cache/org.apache.maven/maven-model/jars/maven-model-3.3.3.jar">

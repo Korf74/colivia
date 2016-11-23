@@ -115,7 +115,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.pom(pom.original) (436ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.pom(pom.original) (186ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
@@ -135,7 +135,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven;3.3.3!maven.pom(pom.original) (888ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven;3.3.3!maven.pom(pom.original) (224ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven-parent;26 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven-parent;26 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven-parent;26 ...[0m
@@ -155,7 +155,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-parent;26!maven-parent.pom(pom.original) (626ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-parent;26!maven-parent.pom(pom.original) (222ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;16 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;16[0m
@@ -195,7 +195,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.pom(pom.original) (402ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.pom(pom.original) (186ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.maven#maven;3.3.3[0m
@@ -227,7 +227,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.pom(pom.original) (570ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.pom(pom.original) (180ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.maven#maven;3.3.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.maven#maven;3.3.3[0m
@@ -2767,7 +2767,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 17701ms :: artifacts dl 21ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18774ms :: artifacts dl 63ms[0m
 [0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT compile produced in /home/remi/perso/Projects/colivia/scala/project/target/resolution-cache/reports/default-scala-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT runtime produced in /home/remi/perso/Projects/colivia/scala/project/target/resolution-cache/reports/default-scala-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT test produced in /home/remi/perso/Projects/colivia/scala/project/target/resolution-cache/reports/default-scala-build-test.xml[0m
@@ -2781,5 +2781,5 @@
 [0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT docs produced in /home/remi/perso/Projects/colivia/scala/project/target/resolution-cache/reports/default-scala-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT pom produced in /home/remi/perso/Projects/colivia/scala/project/target/resolution-cache/reports/default-scala-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scala-build;0.1-SNAPSHOT scala-tool produced in /home/remi/perso/Projects/colivia/scala/project/target/resolution-cache/reports/default-scala-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (17701ms resolve - 21ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (18774ms resolve - 63ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

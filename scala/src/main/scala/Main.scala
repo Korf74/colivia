@@ -1,75 +1,56 @@
-import akka.actor._
-import akka.io.Tcp.{Write, Connected}
-import akka.io.{ IO, Tcp }
-import akka.util.ByteString
-import java.net.InetSocketAddress
-
-
-import akka.util.ByteString
+import scalafx.application.JFXApp
+import scalafx.application.JFXApp.PrimaryStage
+import scalafx.geometry.Insets
+import scalafx.scene.Scene
+import scalafx.scene.effect.DropShadow
+import scalafx.scene.layout.HBox
+import scalafx.scene.paint.Color._
+import scalafx.scene.paint._
+import scalafx.scene.text.Text
 
 /**
-  * Created by remi on 09/11/16.
+  * Created by remi on 22/11/16.
   */
+object Main {
+  def main(args: Array[String]) = {
 
-object Stop
-
-class Listener extends Actor {
-  def receive = {
-    case data: ByteString =>
-      println("client received : "+data.utf8String)
-
-    case data: String => println("client received : "+data)
-
-    case c @ Connected(remote, local) => println("connected")
-
-    case _ =>
-  }
-}
-
-object MainServer {
-
-  def main(args: Array[String]): Unit = {
-
-    val system = ActorSystem("Colivia_Server")
-
-    val server = system.actorOf(Props[Server], "Server")
-
-    var s = ""
-
-    while (!s.equals("stop")) {
-      s = System.console().readLine()
-      server ! s
-    }
-
-    server ! PoisonPill
-
-    System.exit(1)
   }
 
 }
 
-object MainClient {
+object ScalaFXHelloWorld extends JFXApp {
 
-  def main(args: Array[String]): Unit = {
-    val remote = new InetSocketAddress("localhost", 5150)
-
-    val system = ActorSystem("Colivia_Client")
-
-    val listener = system.actorOf(Props[Listener])
-
-    val client = system.actorOf(Client.props(remote, listener))
-
-    var s = ""
-
-    while (!s.equals("stop")) {
-      s = System.console().readLine()
-      client ! s
+  stage = new PrimaryStage {
+    //    initStyle(StageStyle.Unified)
+    title = "Colivia"
+    scene = new Scene {
+      fill = Color.rgb(38, 38, 38)
+      content = new HBox {
+        padding = Insets(50, 80, 50, 80)
+        children = Seq(
+          new Text {
+            text = "Scala"
+            style = "-fx-font: normal bold 100pt sans-serif"
+            fill = new LinearGradient(
+              endX = 0,
+              stops = Stops(Red, DarkRed))
+          },
+          new Text {
+            text = "FX"
+            style = "-fx-font: italic bold 100pt sans-serif"
+            fill = new LinearGradient(
+              endX = 0,
+              stops = Stops(White, DarkGray)
+            )
+            effect = new DropShadow {
+              color = DarkGray
+              radius = 15
+              spread = 0.25
+            }
+          }
+        )
+      }
     }
 
-    listener ! PoisonPill
-    client ! Stop
-
-    System.exit(1)
   }
-
 }

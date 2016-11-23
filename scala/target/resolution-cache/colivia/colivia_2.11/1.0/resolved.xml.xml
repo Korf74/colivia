@@ -4,7 +4,7 @@
 		module="colivia_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161121233952"
+		publication="20161123000834"
 	>
 		<description>
 		colivia
@@ -32,8 +32,9 @@
 		<artifact name="colivia_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.0" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.11.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4.12" conf="compile->default(compile)"/>
+		<dependency org="org.scalafx" name="scalafx_2.11" rev="8.0.92-R10" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
