@@ -1,30 +1,25 @@
-[0m[[0minfo[0m] [0mRunning Client.MainClient localhost[0m
+[0m[[0minfo[0m] [0mRunning Client.MainClient 82.229.207.117[0m
 [0m[[0minfo[0m] [0mconnected[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: ss[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: ssssssssssssssssssssssssssssssssssssssssssssss[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0m/127.0.0.1:44890: s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : ssssssssssssssssssssssssssssssssssssssssssssss[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
-[0m[[0minfo[0m] [0mHandler for /127.0.0.1:44890 received : s[0m
+[0m[[0minfo[0m] [0m/90.27.141.184:52130: coucou[0m
+[0m[[0minfo[0m] [0m/90.27.141.184:52130: que tal ?nice ![0m
+[0m[[0minfo[0m] [0m/90.27.141.184:52130: que du sale[0m
+[0m[[0minfo[0m] [0m/90.27.141.184:52130: d[0m
+[0m[[0minfo[0m] [0m/90.27.141.184:52130: Ouaip ^^[0m
+[0m[[0minfo[0m] [0m/90.27.141.184:52130: gg[0m
+[0m[[0minfo[0m] [0mDisconnecting...[0m
+ received : aaaah[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : ça marche[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : koule[0m
+[0m[[0minfo[0m] [0mHandler for /90.27.141.184:52130 received : que tal ?nice ![0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : mamane[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : mamene[0m
+[0m[[0minfo[0m] [0mHandler for /90.27.141.184:52130 received : que du sale[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : trop de sale[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : haha[0m
+[0m[[0minfo[0m] [0mHandler for /90.27.141.184:52130 received : d[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : bon c'est deja ça de fait[0m
+[0m[[0minfo[0m] [0mHandler for /90.27.141.184:52130 received : Ouaip ^^[0m
+[0m[[0minfo[0m] [0mHandler for /90.27.141.184:52130 received : gg[0m
+[0m[[0minfo[0m] [0mHandler for /192.168.1.254:38838 received : allez je dc le serv[0m
 [0m[[0minfo[0m] [0mClient disconnected[0m
 [0m[[0minfo[0m] [0mClient disconnected[0m

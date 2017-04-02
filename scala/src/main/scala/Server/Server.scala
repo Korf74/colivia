@@ -28,7 +28,7 @@ class Server(adr: String) extends Actor {
 
   def receive = {
     case b @ Bound(localAddress) =>
-     println("Server.Server bound on "+localAddress.toString)
+     println("Server bound on "+localAddress.toString)
 
     case HandlerStop =>
       println("Client disconnected")

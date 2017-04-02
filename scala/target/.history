@@ -217,3 +217,5 @@ runMain Client.MainClient localhost
 reload
 runMain Client.MainClient localhost
 assembly
+runMain Server.MainServer 0.0.0.0
+runMain Client.MainClient 82.229.207.117
